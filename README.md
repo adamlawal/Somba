@@ -2,7 +2,7 @@
 
 Somba is recurring-billing and recovery infrastructure built on top of Nomba's payment rails.
 
-It is meant for businesses and prt teams that want to offer subscriptions, retries, proration, recovery, customer self-service, and reconciliation without building the whole billing system themselves.
+It is meant for businesses and product teams that want to offer subscriptions, retries, proration, recovery, customer self-service, and reconciliation without building the whole billing system themselves.
 
 The short version: Somba is Stripe Billing for Nomba, with recovery logic designed for Nigerian payment behavior.
 
@@ -19,6 +19,9 @@ Somba is designed to keep subscriptions alive when possible, avoid double charge
 - Read the architecture guide in [docs/architecture.md](./docs/architecture.md)
 - Read the subscription lifecycle in [docs/state-machine.md](./docs/state-machine.md)
 - Read the recovery logic in [docs/recovery-engine.md](./docs/recovery-engine.md)
+
+The files in `docs/` are the maintained project documentation. The Nomba API
+reference is available from [Nomba's developer site](https://developer.nomba.com/).
 
 ## Architecture image
 
